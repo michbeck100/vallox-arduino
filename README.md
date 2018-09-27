@@ -1,11 +1,11 @@
 # vallox-esp
-Control your Vallox ventilation system using an esp8266
+Control your Vallox ventilation system using an arduino.
 
 ## Introduction
 
 This project extends the analog step switch VSS-P from Vallox, that is used to control a ventilation system like the [90 SC](http://www.vallox.com/files/412/KAHU90SC_D_280909.pdf).
 
-It uses an esp8266 board with arduino code to create a 10 bit DAC (Digital-Analog-Converter).
+It uses an arduino board with code to create a 10 bit DAC (Digital-Analog-Converter).
 
 This way it's possible to create voltages between 0 and 10V, which controls how fast the fans of the ventilation system run. 
 
