@@ -9,6 +9,10 @@ Dac dac(dacUpdownPin, UDacPin);
 char switchPosition = '?';
 
 void setVentilation(int value) {
+  if (value < 560 || value > 1023) {
+    Serial.println("Invalid value " + value);
+    return;
+  }
   dac.write(value);
   Serial.println("Set ventilation to " + value);
 }
