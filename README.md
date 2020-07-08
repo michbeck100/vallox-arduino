@@ -9,6 +9,8 @@ It uses an arduino board with code to create a 10 bit DAC (Digital-Analog-Conver
 
 This way it's possible to create voltages between 0 and 10V, which controls how fast the fans of the ventilation system run. 
 
+![Schematic](img/schematic.jpg)
+
 ### Credits
 
 This project is based on the [idea](http://www.hillier.de/lueftung.php) of Gernot Hillier.
