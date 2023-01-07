@@ -11,6 +11,15 @@ This way it's possible to create voltages between 0 and 10V, which controls how 
 
 ![Schematic](img/schematic.jpg)
 
+### Dependencies
+
+The hardware consists of an Arduino Nano with an attached ENC28J60 ethernet shield, so the dependencies are as follows:
+
+- [EthernetENC](https://github.com/JAndrassy/EthernetENC) for ENC28J60 support.
+- [MQTT Client](https://pubsubclient.knolleary.net) to connect using mqtt.
+
+The dependencies can be installed using the library manager in the Arduino IDE.
+
 ### Credits
 
 This project is based on the [idea](http://www.hillier.de/lueftung.php) of Gernot Hillier.
